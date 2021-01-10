@@ -1,0 +1,33 @@
+
+header,footer {
+    background-color: rgb(127, 86, 180);
+}
+header {
+    display: block;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 200px;
+    margin: 0px;
+}
+nav{
+    float: right;
+    position: relative;
+}
+.List{
+    display: inline;
+    padding: 6px;
+}
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+main{
+    position: absolute;
+    top: 200px;
+    height: 1500px;
+}
