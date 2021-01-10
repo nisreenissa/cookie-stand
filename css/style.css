@@ -1,7 +1,16 @@
 
 header,footer {
     background-color: rgb(127, 86, 180);
+    color: rgb(46, 30, 46);
 }
+h1{text-align: center;
+color:white;}
+
+body{
+    position: relative;
+    background-color: snow;
+}
+
 header {
     display: block;
     position: sticky;
@@ -13,21 +22,20 @@ header {
 }
 nav{
     float: right;
-    position: relative;
 }
-.List{
+.navList{
     display: inline;
-    padding: 6px;
+    padding: 5px;
 }
 footer {
     display: block;
     position: fixed;
-    bottom: 0px;
+    bottom: 8px;
     right: 0px;
     left: 0px;
 }
 main{
     position: absolute;
     top: 200px;
-    height: 1500px;
+    height: 1800px;
 }
