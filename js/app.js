@@ -31,7 +31,7 @@ var seattle = {
     totalCookies: 0,
     calcAvgCookiesPerHour: function () {
         for (var k = 0; k < hour.length; k++) {
-            this.avgCookiesPerHour.push(Math.floor(this.avgCusPerHour[k] * this.avgCookiePerCus));
+            this.avgCookiesPerHour.push(Math.ceil(this.avgCusPerHour[k] * this.avgCookiePerCus));
             this.totalCookies = this.totalCookies + this.avgCookiesPerHour[k];
         }
         for (var l = 0; l < hour.length; l++) {
@@ -59,7 +59,7 @@ var tokyo = {
     totalCookies: 0,
     calcAvgCookiesPerHour: function () {
         for (var k = 0; k < hour.length; k++) {
-            this.avgCookiesPerHour.push(Math.floor(this.avgCusPerHour[k] * this.avgCookiePerCus));
+            this.avgCookiesPerHour.push(Math.ceil(this.avgCusPerHour[k] * this.avgCookiePerCus));
             this.totalCookies = this.totalCookies + this.avgCookiesPerHour[k];
         }
         for (var l = 0; l < hour.length; l++) {
@@ -87,7 +87,7 @@ var dubai = {
     totalCookies: 0,
     calcAvgCookiesPerHour: function () {
         for (var k = 0; k < hour.length; k++) {
-            this.avgCookiesPerHour.push(Math.floor(this.avgCusPerHour[k] * this.avgCookiePerCus));
+            this.avgCookiesPerHour.push(Math.ceil(this.avgCusPerHour[k] * this.avgCookiePerCus));
             this.totalCookies = this.totalCookies + this.avgCookiesPerHour[k];
         }
         for (var l = 0; l < hour.length; l++) {
@@ -115,7 +115,7 @@ var paris = {
     totalCookies: 0,
     calcAvgCookiesPerHour: function () {
         for (var k = 0; k < hour.length; k++) {
-            this.avgCookiesPerHour.push(Math.floor(this.avgCusPerHour[k] * this.avgCookiePerCus));
+            this.avgCookiesPerHour.push(Math.ceil(this.avgCusPerHour[k] * this.avgCookiePerCus));
             this.totalCookies = this.totalCookies + this.avgCookiesPerHour[k];
         }
         for (var l = 0; l < hour.length; l++) {
@@ -143,7 +143,7 @@ var lima = {
     totalCookies: 0,
     calcAvgCookiesPerHour: function () {
         for (var k = 0; k < hour.length; k++) {
-            this.avgCookiesPerHour.push(Math.floor(this.avgCusPerHour[k] * this.avgCookiePerCus));
+            this.avgCookiesPerHour.push(Math.ceil(this.avgCusPerHour[k] * this.avgCookiePerCus));
             this.totalCookies = this.totalCookies + this.avgCookiesPerHour[k];
         }
         for (var l = 0; l < hour.length; l++) {
