@@ -1,3 +1,10 @@
+td {
+    border: 2px solid purple;
+}
+
+table {
+    border: 2px solid chartreuse;
+}
 
 header,footer {
     background-color: rgb(127, 86, 180);
@@ -24,6 +31,9 @@ nav{
     float: right;
 }
 .navList{
+    font-size: large;
+    text-shadow: white;
+    color:yellowgreen;
     
     display: inline;
     padding: 5px;
