@@ -5,13 +5,22 @@ td {
 table {
     border: 2px solid chartreuse;
 }
+p{color:rgba(22, 13, 54, 0.884);
 
+    font-size:20px ;
+    font-weight:bold;
+}
+
+#space{
+    margin-bottom: 1ch;
+}
 header,footer {
     background-color: rgb(127, 86, 180);
     color: rgb(46, 30, 46);
 }
 h1{text-align: center;
-color:white;}
+color:rgba(22, 13, 54, 0.884);
+font-weight:bold;}
 
 body{
     position: relative;
@@ -24,16 +33,20 @@ header {
     top: 0px;
     right: 0px;
     left: 0px;
-    height: 200px;
+    height: 180px;
     margin: 0px;
 }
 nav{
-    float: right;
+    margin: 0;
+    padding: 0;
+        float: right;
 }
 .navList{
+    
     font-size: large;
-    text-shadow: white;
-    color:yellowgreen;
+    text-shadow: palevioletred;
+    color:palevioletred;
+    
     
     display: inline;
     padding: 5px;
@@ -50,3 +63,14 @@ main{
     top: 200px;
     height: 1800px;
 }
+
+.home{
+    background-image:url("img/family.jpg");
+    position: absolute;
+    top: 100px;
+    height: 3000px;
+}
+
+
+
+
