@@ -59,7 +59,7 @@ locationSection.appendChild(locationTable);
 
 header();
 tabledata();
-footer();
+
 
 
 for (var i = 0; i < shop.length; i++) {
@@ -111,27 +111,3 @@ function tabledata() {
 }
 
 
-function footer() {
-    var footRow = document.createElement('tfoot');
-    locationTable.appendChild(footRow);
-    var tableRow = document.createElement('tr');
-    footRow.appendChild(tableRow);
-    var footRowCells = [];
-    footRowCells.push(document.createElement('td'));
-    footRowCells[0].textContent = 'Totals';
-    tableRow.appendChild(footRowCells[0]);
-    
-    var cellData = [];
-    var dataTotal = 0;
-    for (var j = 1; j < hour.length; j++) {
-        var hourCol = 0;
-        for (var y = 0; y < shop.length; y++) {
-            hourCol = hourCol + shop[y].avgCookiesPerHour[j - 1];
-        }
-        cellData.push(hourCol);
-        dataTotal = dataTotal + hourCol;
-        footRowCells.push(document.createElement('td'));
-        footRowCells[j].textContent = cellData[j];
-        tableRow.appendChild(footRowCells[j]);
-    }
-}
