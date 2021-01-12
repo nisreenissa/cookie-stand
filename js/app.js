@@ -24,14 +24,14 @@ function Branches(BranchesName, minCustomer, maxCustomer, avgCookies) {
 Branches.prototype.calcCusPerHour = function () {
     for (var i = 0; i < hour.length; i++) {
         this.avgCusPerHour.push(randomNumber(this.minCusPerHour , this.maxCusPerHour));
-        console.log(this.avgCusPerHour);
+       
     }
 };
 
 Branches.prototype.calcAvgCookiesPerHour = function () {
     for (var j = 0; j < hour.length; j++) {
         this.avgCookiesPerHour.push(Math.ceil(multipacation(this.avgCusPerHour[j], this.avgCookiePerCus)));
-        console.log(this.avgCookiesPerHour);
+        
     }
 };
 
@@ -111,7 +111,7 @@ Tokyo.calcCusPerHour();
 Tokyo.calcAvgCookiesPerHour();
 Tokyo.totalCookies;
 Tokyo.render();
-console.log(Tokyo);
+
 
 var Dubai = new Branches('Dubai', 11, 38, 3.7);
 
@@ -119,7 +119,7 @@ Dubai.calcCusPerHour();
 Dubai.calcAvgCookiesPerHour();
 Dubai.totalCookies;
 Dubai.render();
-console.log(Dubai);
+
 
 
 var Paris = new Branches('Paris', 20, 38, 2.3);
@@ -128,7 +128,7 @@ Paris.calcCusPerHour();
 Paris.calcAvgCookiesPerHour();
 Paris.totalCookies;
 Paris.render();
-console.log(Paris);
+
 
 var Lima = new Branches('Lima', 2, 16, 4.6);
 
@@ -136,7 +136,7 @@ Lima.calcCusPerHour();
 Lima.calcAvgCookiesPerHour();
 Lima.totalCookies;
 Lima.render();
-console.log(Lima);
+
 
 var tableRow1 = document.createElement('th');
 table.appendChild(tableRow1);
@@ -152,8 +152,6 @@ total0.push(a);
 }
 
 total0.push(totalOfTotal);
-console.log(total0);
-console.log(totalOfTotal);
 
 
 for (var i = 0; i < total0.length; i++) {
