@@ -20,7 +20,35 @@
             </ul>
         </nav>
     </header>
-    <main id="mainId">
+    <main id="main-id">
+
+        <form id="form-id">
+            <fieldset>
+                <legend>Adding New Branch</legend>
+                <label for="branchName"> Branch Location: </label>
+                <input type="text" name="branchName" required id="branchName" placeholder="Branch Name">
+                <br/>
+                <br/>
+                <br/>
+                <label for="min_customer"> Min Cutomer: </label>
+                <input type="number" name="min_customer" required min="0" max="50"  id="min_customer" placeholder="Min Customers">
+                <br/>
+                <br/>
+                <br/>
+                <label for="max_customer"> Max Cutomer: </label>
+                <input type="number" name="max_customer" required min="50"  id="max_customer" placeholder="Max Customer">
+                <br/>
+                <br/>
+                <br/>
+                <label for="avg_cookies"> Average Cookies Sold:</label>
+                <input type="number" name="avg_cookies" required step=".1" min="50" id="avg_cookies" placeholder="Average Cookies">
+                <br/>
+                <br/>
+                <br/>
+                <button id="btn" type="submit">Enter</button>
+            </fieldset>
+        </form>
+        
     </main>
     <footer>
         <h3>Copy rights reserved </h3>
