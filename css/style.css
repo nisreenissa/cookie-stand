@@ -4,6 +4,8 @@ td {
 
 table {
     border: 2px solid chartreuse;
+    color: blueviolet;
+    background-color: chartreuse;
 }
 p{color:rgba(22, 13, 54, 0.884);
 
@@ -18,9 +20,28 @@ header,footer {
     background-color: rgb(127, 86, 180);
     color: rgb(46, 30, 46);
 }
+form{
+    background-color: darkcyan;
+}
+@font-face {
+
+    font-family: myFirstFont;
+
+    src: url(https://www.yoursite.com/fonts/coolfont_bold.woff);
+
+    font-weight: bold;
+
+}
+p{    font-family: sans-serif;
+    color: blueviolet
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Varela+Round&display=swap');
+
 h1{text-align: center;
 color:rgba(22, 13, 54, 0.884);
-font-weight:bold;}
+font-weight:bold;
+font-family: 'Noto Sans TC', sans-serif;}
 
 body{
     position: relative;
