@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 td {
-    border: 2px solid purple;
+    border: 2px solid rgb(184, 90, 90);;
 }
 
 table {
-    border: 2px solid chartreuse;
-    color: blueviolet;
-    background-color: chartreuse;
+    border: 2px solid rgb(31, 2, 2);
+    color: black
+    background-color:rgb(184, 90, 90);
 }
-p{color:rgba(22, 13, 54, 0.884);
+p{color:rgba(15, 4, 53, 0.884);
 
     font-size:20px ;
     font-weight:bold;
@@ -17,31 +18,25 @@ p{color:rgba(22, 13, 54, 0.884);
     margin-bottom: 1ch;
 }
 header,footer {
-    background-color: rgb(127, 86, 180);
+    background-color: rgb(116, 58, 58);
     color: rgb(46, 30, 46);
+    margin:auto
 }
 form{
-    background-color: darkcyan;
-}
-@font-face {
-
-    font-family: myFirstFont;
-
-    src: url(https://www.yoursite.com/fonts/coolfont_bold.woff);
-
-    font-weight: bold;
-
-}
-p{    font-family: sans-serif;
-    color: blueviolet
+    background-color: salmon;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Varela+Round&display=swap');
+p{    font-family: Georgia;
+    color:rgba(15, 4, 53, 0.884);
+    
+}
+
 
 h1{text-align: center;
 color:rgba(22, 13, 54, 0.884);
 font-weight:bold;
-font-family: 'Noto Sans TC', sans-serif;}
+font-family: 'Lobster', cursive;
+}
 
 body{
     position: relative;
@@ -50,7 +45,7 @@ body{
 
 header {
     display: block;
-    position: sticky;
+    position: relative;
     top: 0px;
     right: 0px;
     left: 0px;
@@ -58,19 +53,27 @@ header {
     margin: 0px;
 }
 nav{
-    margin: 0;
-    padding: 0;
+    width: 1250px;
+    text-align: right;
+    height:40px;
+    background-color: rgb(116, 58, 58);
+    top: 30px;
+    /* overflow: hidden; */
+    padding: 5px 0px 5px 0px;
+    line-height: 32px;
         float: right;
 }
 .navList{
-    
+
     font-size: large;
     text-shadow: palevioletred;
-    color:palevioletred;
-    
-    
+    color:black;
+    font-weight: bold;
+    font-family: Helvetica;
     display: inline;
-    padding: 5px;
+    padding: 9px;
+    right: 0;
+    bottom: 40px;
 }
 footer {
     display: block;
@@ -78,6 +81,7 @@ footer {
     bottom: 8px;
     right: 0px;
     left: 0px;
+    text-align: center;
 }
 main{
     position: absolute;
